@@ -1,0 +1,29 @@
+h1 {
+    color:rgb(143, 78, 204);
+}
+
+h2 {
+    color: rgb(211, 85, 211);
+}
+
+html {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    text-align: justify;
+}
+
+.item {
+    font-style: italic;
+    
+
+}
+
+.sub-item {
+    font-weight: bold;
+
+}
+
+img {
+    border-radius: 50%;
+    
+}
