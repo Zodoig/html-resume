@@ -1,8 +1,7 @@
 h1 {
     color:rgb(143, 78, 204);
     font-family: "Josefin Sans", sans-serif;
-    font-weight: 1000;
-}
+    }
 
 h2 {
     color: rgb(211, 85, 211);
@@ -16,8 +15,7 @@ html {
 
 .item {
     font-style: italic;
-    
-
+  
 }
 
 .sub-item {
@@ -28,14 +26,34 @@ html {
 img {
     border-radius: 50%;
     position: relative;
-    
-    
+    float: left;
+       
 }
 
 #titles {
     font-style: italic;
 }
 
+#quick-facts {
+    position: relative;
+    top: 100px;
+    left: 100px; 
+}
+#summary {
+    width: 750px;
+    clear: both;
+    padding-top: 10px;
+}
+
+#languages {
+    line-height: 5px;
+    padding: 10px;
+}
+
+#digi-xp {
+    padding: 10px;
+    
+}
 
 .belgian-flag {
     height: 13px;
