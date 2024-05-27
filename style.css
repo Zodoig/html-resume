@@ -27,9 +27,8 @@ html {
 
 img {
     border-radius: 50%;
-    float: left;
     position: relative;
-    left: 50px;
+    
     
 }
 
@@ -37,66 +36,12 @@ img {
     font-style: italic;
 }
 
-#quick-facts {
-    position: relative;
-    left: 80px;
-    top: 65px;
-}
-
-#summary {
-    clear: both;
-    position: relative;
-    top: 20px;
-    display: block;
-    width: 740px;
-}
-
-
-#education {
-    position: relative;
-    top: 20px;
-    display: inline-block;
-    vertical-align: top;
-
-}
-
-#pro-xp {
-    position: relative;
-    top: 20px;
-    display: inline-block;
-    vertical-align: top;
-}
-
-#languages {
-    position: absolute;
-    top: 1005px;
-    margin-bottom: 45px;
-    line-height: 5px;
-
-}
-
-#digi-xp {
-    position: absolute;
-    top: 995px;
-    left: 320px;
-    width: 350px;
-}
-
-#contact {
-    position: absolute;
-    top: 1450px;
-}
-
-footer {
-    position: absolute;
-    top: 1600px;
-}
 
 .belgian-flag {
     height: 13px;
     width: 15px;
     position: relative;
-    top: 1.5px;
+    top: 1px;
     display: inline-block;
 }
 #one {
