@@ -5,21 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
     <link rel="stylesheet" href="./style.css"/>
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 <body>
     <h1>Duygu Ozcan</h1>
-        <h2>Communications Specialist, Linguist, Aspiring Web Developer</h2>
+        <h2 id="titles">Communications Specialist <br>Linguist <br>Aspiring Web Developer</h2>
         <img src="./Duygu photo.png" height="300" alt="A photo of me with a colourful shirt and colourful background"/>
-    <hr />
-        <h2>Summary</h2>
-            <p>I have a background in Translation and Communications and have worked in these fields extensively. My career path steered me towards UX copywriting and then to web design. I started to design websites and I quickly realised I wanted to do more than design a website. I am currently following extensive training to become a web developer.</p>
+    
+    <div id="quick-facts">
         <h2>Quick Facts</h2>
         <ul>
-            <li><h3>Nationality: Belgian</h3></li>
+            <li><h3>Nationality: 
+                <div class="belgian-flag">
+                <div id="one"></div>
+                <div id="two"></div>
+                <div id="three"></div>
+            </div></h3></li>
             <li><h3>Driving licence: B</h3></li>
             <li><h3>Birthdate: 30th April 1993</h3></li>
-        </ul>    
-    <hr />
+        </ul>
+    </div>    
+    <div id="summary">
+        <h2>Summary</h2>
+            <p>I have a background in Translation and Communications and have worked in these fields extensively. My career path steered me towards UX copywriting and then to web design. I started to design websites and I quickly realised I wanted to do more than design a website. I am currently following extensive training to become a web developer.</p>
+    </div>
+    <div id="education">  
         <h2>Education</h2>
         <ul>
             <li class="item">
@@ -43,6 +54,8 @@
                 2011 - 2016
             </li>            
         </ul>
+    </div>
+    <div id="pro-xp">    
         <h2>Professional Experience</h2>
         <ul>
             <li class="item"><div class="sub-item">Communications Manager</div>
@@ -82,6 +95,7 @@
                 
             </li>
         </ul>
+    </div>
         <h2>Language Competences</h2>
         <ul>
             <li><h3>English</h3>
@@ -95,6 +109,7 @@
             <li><h3>Turkish</h3>
                 Native proficiency</li>
         </ul>
+    <div id="digi-xp">
         <h2>Digital Expertise</h2>
         <ul>
             <li>Adobe Creative Cloud (PhotoShop, InDesign, Premiere Pro)</li>
@@ -112,10 +127,13 @@
             <li>Task management tools (Trello, Asana)</li>
             <li>CRM tools (HubSpot, FreshDesk)</li>
         </ul>
+    </div>
         <hr />
+    <div id="contact">    
         <h3>Contact Info</h3>
             <h4>duyguozcan@outlook.com</h4>
             <h4><a href="https://www.linkedin.com/in/duguozcan/">LinkedIn</a></h4>
+    </div>
 </body>
 <footer> Duygu Ozcan - All rights reserved - 2024.</footer>
 </html>

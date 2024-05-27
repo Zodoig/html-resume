@@ -1,5 +1,7 @@
 h1 {
     color:rgb(143, 78, 204);
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 1000;
 }
 
 h2 {
@@ -7,8 +9,9 @@ h2 {
 }
 
 html {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-style: normal;
+    background-color: rgb(248, 243, 250);
 }
 
 .item {
@@ -24,5 +27,99 @@ html {
 
 img {
     border-radius: 50%;
+    float: left;
+    position: relative;
+    left: 50px;
     
+}
+
+#titles {
+    font-style: italic;
+}
+
+#quick-facts {
+    position: relative;
+    left: 80px;
+    top: 65px;
+}
+
+#summary {
+    clear: both;
+    position: relative;
+    top: 20px;
+    display: block;
+    width: 740px;
+}
+
+
+#education {
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+#pro-xp {
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#languages {
+    position: absolute;
+    top: 1005px;
+    margin-bottom: 45px;
+    line-height: 5px;
+
+}
+
+#digi-xp {
+    position: absolute;
+    top: 995px;
+    left: 320px;
+    width: 350px;
+}
+
+#contact {
+    position: absolute;
+    top: 1450px;
+}
+
+footer {
+    position: absolute;
+    top: 1600px;
+}
+
+.belgian-flag {
+    height: 13px;
+    width: 15px;
+    position: relative;
+    top: 1.5px;
+    display: inline-block;
+}
+#one {
+    height: 100%;
+    width: 5px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+#two {
+    height: 100%;
+    width: 5px;
+    background-color: rgb(253, 218,36);
+    position: absolute;
+    left: 5px;
+    bottom: 0%;
+}
+
+#three {
+    height: 100%;
+    width: 5px;
+    background-color: rgb(239, 51, 64);
+    position: absolute;
+    left: 10px;
+    bottom: 0%;
 }
