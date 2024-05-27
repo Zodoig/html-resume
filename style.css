@@ -51,7 +51,7 @@ img {
 
 .grid-container {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 350px 350px;
         grid-template-rows: 350px 400px;
         gap: 30px;
 
@@ -59,7 +59,7 @@ img {
 
 .grid-box {
     display: grid;
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 350px 350px; 
 }
 #summary {
     width: 750px;
