@@ -11,12 +11,12 @@
 <body>
     <h1>Duygu Ozcan</h1>
         <h2 id="titles">Communications Specialist <br>Linguist <br>Aspiring Web Developer</h2>
-<div class="grid-box">
-    <img src="./Duygu photo.png" height="300" alt="A photo of me with a colourful shirt and colourful background"/>
+<div class="flexbox">
+    <img src="./Duygu photo.png" height="300" class="flex-item" alt="A photo of me with a colourful shirt and colourful background"/>
     
-    <div id="quick-facts">
+    <div id="quick-facts" class="flex-item">
         <h2>Quick Facts</h2>
-        <ul>
+        <ul class="list-none">
             <li><h3>Nationality: 
                 <div class="belgian-flag">
                 <div id="one"></div>
@@ -102,18 +102,13 @@
     </div>
     <div id="languages" class="grid-item">
         <h2>Language Competences</h2>
-        <br>
-        <ul>
-            <li><h3>English</h3>
-                Native proficiency</li>
-            <li><h3>French</h3>
-                Full professional profeciency</li>
-            <li><h3>Spanish</h3>
-                Professional working proficiency</li>
-            <li><h3>Dutch</h3>
-                Limited working proficiency</li>
-            <li><h3>Turkish</h3>
-                Native proficiency</li>
+        
+        <ul class="list-none">
+            <li><p><span class="lang-id">English:</span> Native proficiency</p></li>
+            <li><p><span class="lang-id">French:</span> Full professional profeciency</p></li>
+            <li><p><span class="lang-id">Spanish:</span> Professional working proficiency</p></li>
+            <li><p><span class="lang-id">Dutch:</span> Limited working proficiency</p></li>
+            <li><p><span class="lang-id">Turkish:</span> Native proficiency</p></li>
         </ul>
     </div>
     <div id="digi-xp" class="grid-item">
@@ -123,14 +118,14 @@
             <li>Canva</li>
             <li>Figma</li>
             <li>Crowdin</li>
-            <li>Adobe Creative Cloud (PhotoShop, InDesign, Premiere Pro)</li>
-            <li>MS Office Suite (Word, Excel, PowerPoint, Outlook, SharePoint)</li>
+            <li>MS Office Suite</li>
+            <li>PhotoShop, InDesign, Premiere Pro</li>
             <li>Google Analytics</li>
             <li>Atlassian stack (Jira, Confluence)</li>
-            <li>MailChimp</li>
-            <li>Web Design & Management (Wordpress, Wix, Squarespace)</li>
+            <li>MailChimp, FreshMarketer</li>
+            <li>Web Design (Wordpress, Wix, Squarespace)</li>
             <li>HTML, CSS , JavaScript</li>
-            <li>Social media (LinkedIn, Twitter (X), Instagram, Facebook)</li>
+            <li>Social media platforms</li>
             <li>Task management tools (Trello, Asana)</li>
             <li>CRM tools (HubSpot, FreshDesk)</li>
         </ul>
@@ -140,8 +135,8 @@
     <div id="contact">
 <div class="line"></div>  
         <h2>Contact Info</h2>
-            <h4>zodoig@outlook.com</h4>
-            <h4><a href="https://www.linkedin.com/in/duguozcan/">LinkedIn</a></h4>
+            <p><a href="mailto:zodoig@outlook.com">Send me an e-mail</a></p>
+            <p><a href="https://www.linkedin.com/in/duguozcan/">LinkedIn</a></p>
     </div>
 </body>
 <footer>Duygu Ozcan - All rights reserved - 2024.</footer>
